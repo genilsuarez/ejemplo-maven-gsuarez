@@ -35,7 +35,7 @@ pipeline {
     }
     post {
         always {
-            sh "echo 'fase always executed post'"
+            sh "echo 'fase always executed post Termino'"
         }
         success {
             sh "echo 'fase success'"
