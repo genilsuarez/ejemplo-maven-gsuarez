@@ -109,6 +109,7 @@ pipeline {
                 script {
                     //sh "sleep 20 && curl -X GET 'http://localhost:8081/rest/mscovid/test?msg=testing'"
                     //sh 'sleep 20 && newman run ejemplo-maven.postman_collection.json'
+                    sh 'echo "Testeando Artefacto"'
                 }
             }
         }
