@@ -75,7 +75,7 @@ pipeline {
                     groupId: 'com.devopsusach2020',
                     version: '0.0.1',
                     repository: 'maven-usach-ceres',
-                    credentialsId: 'nexus_admin',
+                    credentialsId: 'admin-nexus',
                     artifacts: [
                         [artifactId: "DevOpsUsach2020",
                         classifier: '',
